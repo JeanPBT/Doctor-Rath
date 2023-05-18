@@ -1,0 +1,40 @@
+public\template_web\assets\revolution\js\jquery.themepunch.revolution.min.js  tp-bgimg
+
+https://github.com/marsanla/SliderRevolution/blob/master/examples/11.Sample-Shuffle.html
+
+http://zulijani.com/slider-revolution/sources/01.Sample-Boxed.html
+http://littlethumb.eu/assets/plugins/revolution-slider/guides&more/s17.DottedBG.html
+https://stackoverflow.com/questions/22010565/revolution-slider-how-to-make-different-time-for-different-items
+https://stackoverflow.com/questions/39636088/revolution-slider-bullets-appears-overlapped
+
+//=================== AGREGAR ELEMENTOS
+https://stackoverflow.com/questions/1200266/submit-a-form-using-jquery
+
+var form = document.createElement("form");
+$(form).attr("action", "/test/Delete")
+       .attr("method", "post");
+$(form).html('<input type="hidden" name="id" value="' + myid + '" />');
+document.body.appendChild(form);
+$(form).submit();
+document.body.removeChild(form);
+
+//=========================== editar texto
+https://codepen.io/terned/pen/gLNoGL
+https://codepen.io/pehaa/pen/zYxjgVM
+https://codepen.io/rohanrit/pen/YzyOBjJ
+https://codepen.io/sinfullycoded/pen/oNLBJpm
+
+//==================== SLIDER
+web\pages\web_index.blade.php
+
+============================= INSTALANDO DATATABLLE =================================================
+SE DEBE DE COLOCAR EN EL COMPOSER MISMO
+        "yajra/laravel-datatables-oracle": "~9.0"
+        
+https://yajrabox.com/docs/laravel-datatables/10.0
+composer require yajra/laravel-datatables:"^9.0"
+'providers' => [
+    // ...
+    Yajra\DataTables\DataTablesServiceProvider::class,
+],
+php artisan vendor:publish --tag=datatables

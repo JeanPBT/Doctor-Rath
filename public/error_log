@@ -1,0 +1,2 @@
+[31-May-2022 07:23:56 America/Boise] PHP Warning:  require(/home1/mbcarsar/public_html/../../laravel/vendor/autoload.php): failed to open stream: No such file or directory in /home1/mbcarsar/public_html/index.php on line 24
+[31-May-2022 07:23:56 America/Boise] PHP Fatal error:  require(): Failed opening required '/home1/mbcarsar/public_html/../../laravel/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/mbcarsar/public_html/index.php on line 24
